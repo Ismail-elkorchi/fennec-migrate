@@ -10,7 +10,21 @@ Format:
 
 ---
 
-## ADR-0001: License Selection
+## ADR-0001: Migration Toolkit Stack (v0.1)
+
+Date: 2026-02-04
+Status: Accepted
+
+Decision:
+- fennec-migrate is implemented in Go 1.25.x as a single-binary CLI.
+
+Rationale:
+- Runs on a wide range of servers without runtime dependencies.
+- Easy distribution and predictable behavior.
+
+---
+
+## ADR-0002: License Selection
 Status: Proposed
 Date: 2026-02-04
 

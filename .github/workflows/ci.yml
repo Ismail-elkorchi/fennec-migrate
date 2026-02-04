@@ -32,7 +32,10 @@ jobs:
             echo "No shell scripts to check."
           fi
 
-  build-test:
+      - name: Decision protocol checks
+        run: ./tools/ci/check-decisions.sh
+
+  go-tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout

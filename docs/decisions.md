@@ -13,7 +13,7 @@ Date: 2026-02-04
 The migration toolkit must run on a wide range of servers with minimal dependencies and be easy to distribute.
 
 ### Decision
-- fennec-migrate is implemented in Go 1.25.x as a single-binary CLI.
+- fennec-migrate is implemented in Go 1.26.x as a single-binary CLI.
 
 ### Alternatives Considered
 - Python CLI with packaged runtime.
@@ -21,7 +21,7 @@ The migration toolkit must run on a wide range of servers with minimal dependenc
 - Shell scripts with platform-specific dependencies.
 
 ### Evidence
-- `go.mod` specifies Go 1.25.x.
+- `go.mod` specifies Go 1.26.x.
 - The current CLI implementation is in Go under `src/` and `cmd/`.
 
 ### Falsifiers

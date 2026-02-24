@@ -1,3 +1,3 @@
 module github.com/Ismail-elkorchi/fennec-migrate
 
-go 1.25
+go 1.26
